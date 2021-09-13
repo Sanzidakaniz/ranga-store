@@ -1,14 +1,28 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  
 }
-.search-field {
+.new-head{
+ text-align: center;
+}
+#new-input{
+  width: 400px;
+ 
+}
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* .search-field {
   border: none;
   border-radius: 50px;
   padding: 5px;
   outline: none;
-}
-.search-field:hover {
+} */
+.search:hover {
   outline: none;
   border: none;
 }
@@ -22,11 +36,11 @@ body {
 }
 .search-button {
   padding: 10px 50px;
-  border-radius: 25px;
+  border-radius: 50px;
   margin-left: 20px;
 }
-#all-products {
-  display: grid;
+#all-products{
+  display:grid;
   grid-template-columns: repeat(3, 1fr);
   /* border: 1px solid black; */
   text-align: center;
