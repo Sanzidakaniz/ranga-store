@@ -17,34 +17,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+<body class="new-body">
+
+  <!-- Header part -->
   <header>
     <h1 class="new-head">Awesome Store</h1>
   </header>
   <main class="main">
-    <!-- <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button class="search-button">search</button>
-      </div>
-    </div>   -->
-   
-    <!-- search part 
-  <div class="input-group w-100 mx-auto">
-      <input id="take-input" type="text" class="form-control" placeholder="search here" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <button  onclick="searchThis()"class="btn btn-outline-secondary bg-dark text-white" type="button" id="button-addon2">search</button>
-
-    </div>  -->
+  
+   <!-- Search part -->
     <div class="search">
-    <div>  <input id="new-input" type="text"></div>
+    <div>  <input id="new-input" type="text" placeholder="search here"></div>
      <div><button id="search-button"  class="btn btn-danger" type="submit">Search</button></div>
   </div>
     
+  <!-- all products part -->
     <div class="row mt-4">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
         </div>
       </div>
+
+      <!-- My cart part -->
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">
